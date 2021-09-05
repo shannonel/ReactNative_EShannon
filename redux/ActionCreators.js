@@ -37,6 +37,7 @@ export const addComment = comment => ({
 });
 
 export const postComment = (campsiteId,rating,author,text) => dispatch => {
+    console.log('postComment hit');
     const newComment = {
         campsiteId,
         rating,
