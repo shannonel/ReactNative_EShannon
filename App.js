@@ -13,8 +13,8 @@ export default function App() {
       <PersistGate
         loading={<Loading />}
         persistor={persistor}>
-      <Main />
-    </PersistGate>
+        <Main />
+      </PersistGate>
     </Provider>
   );
 }
